@@ -1,0 +1,131 @@
+  .form input {
+    @include form-input;
+  }
+  
+  .form button  {
+    @include form-button;
+  }
+  .form button:before {
+   @include form-button-1;
+   
+  }
+
+  .categ h4{
+    @include h4;
+  }
+
+  .categ ul{
+      @include border-ul;
+      list-style:none;
+
+  }
+
+  .categ ul li{
+   @include border-ul-li;
+   
+  }
+
+  .categ i{
+     @include i;
+  }
+  
+
+  .blog-im svg{
+   fill:$p-23;
+   font-size: 10px;
+   
+  }
+
+ .blog-im h3{
+    @include blog-h3;
+}
+
+.blog-im{
+    margin: 0;
+    line-height: 2;
+    
+}
+
+.february{
+  @include february;
+  
+}
+
+hr{
+    @include hr;
+   
+}
+
+.blog-im img{
+    padding-top: 30px;
+}
+
+.h3-2{
+   @include h3-2;
+}
+
+.banner{
+    margin: 60px 0 40px 0;
+    width: 266px;
+    height: 376px;
+}
+
+.advantages ul {
+    @include advantages-ul;
+}
+.advantages ul li {
+    @include advantages-ul;
+
+   
+}
+      
+.advantages button{
+    @include advantages-button;
+}
+
+.advantages ul li svg{
+    fill:$p-1
+        
+}
+
+.categ button{
+    @include advantages-button;
+}
+
+.discounts img{
+    margin: 0 -10px 20px -10px;
+}
+
+
+
+.for_the{
+    margin: 0 150px 30px 0;
+    line-height: 0.3;
+}
+
+.for_the p{
+    @include for-the-p;
+}
+
+.for_the h3{
+    font-family: $font-regular;
+}
+
+#imof{
+    margin-top: 20px;
+}
+
+#dishref{
+   @include dishref;
+}
+
+@media screen and (max-width: 1200px){
+    .aside{
+        padding: 50px 0 50px 90px;
+    } 
+   .form{
+       display: none;
+   }
+ }
+
+ 

@@ -1,0 +1,419 @@
+//mixin header
+
+@mixin logo-h3{
+	font-size: 20px;
+	color:$p-3;
+	font-family:tahoma;
+	text-transform: uppercase;
+}	
+
+@mixin site{
+	font-size: 36px;
+	color:$light;
+	font-family:$font-regural-bold ;
+}	
+
+@mixin net{
+	font-size: 13px;
+	color:$light;
+	font-family:$font-light ;
+	line-height: 0.3;
+	padding-left: 7px;
+
+}	
+@mixin dropbtn  {
+	font-size: 12px;    
+    border: none;
+    outline: none;
+    color:$light;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: $font-regular;
+	margin: 0;
+	text-transform:uppercase;
+}
+
+@mixin border {
+	font-size: 12px;    
+	border: solid;
+	overflow: hidden;
+	border-width: 2px;
+    color:$light;
+    background-color: transparent;
+	margin: 7px 15px;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+@mixin btn-btn-primary {
+	width: 104px;
+	height: 44px;
+	font-size: 12px;  
+	border: none;  
+    border-radius:7% ;
+	outline: none;
+    color:$light;
+    padding: 14px 16px;
+    background-color: $p-8;
+    font-family: $font-regular;
+	margin: 0 15px 0 10px;
+	text-transform:uppercase;
+	
+}
+
+@mixin btn-btn-primary-1 {
+	width: 104px;
+	height: 44px;
+	font-size: 12px;  
+	border: none;  
+    border-radius:7% ;
+	outline: none;
+    color:$light;
+    padding: 14px 16px;
+    background-color: $p-2;
+    font-family: $font-regular;
+	margin: 0 15px 0 10px;
+	text-transform:uppercase;
+	
+}
+
+@mixin menu{
+	
+	font-size: 22px;  
+	border: none;  
+  	outline: none;
+    color:$light;
+    padding: 14px 16px;
+    background-color: transparent;
+    font-family: $font-regular;
+	margin: 0 ;
+	text-transform:uppercase;
+	
+}
+@mixin h-header {
+	background-color:$p-1;
+	padding: 20px;
+}
+
+@mixin text-page {
+	background-color:$p-7;
+	height: 243px;
+}
+
+@mixin dropdown-content {
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+@mixin dropdown-content-a{
+	float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+@mixin im-breadcrumb-li {
+	display: inline-block;
+	font-family: $font-regular;
+	font-size: 12px;
+}
+
+@mixin  im-breadcrumb-a {
+	padding:0 10px 0 10px  ;
+	color:$p-4;
+   text-decoration: none;
+}
+
+@mixin im-breadcrumb-i {
+	padding:0 10px 0 10px  ;
+	color:$p-4;
+   text-decoration: none;
+}
+
+//mixin main
+
+@mixin main {
+	background-color: $light;
+   margin:40px 50px 0 -50px;
+   font-family: $font-regular;
+}
+
+@mixin main-h1 {
+	 color: $p-28;
+   line-height: 3;
+
+}
+
+@mixin main-text1-h3 {
+   color: $p-26;
+   text-align: justify;
+}
+@mixin main-text1-p {
+	color:$p-4;
+   font-size: 13px;
+}
+
+@mixin  main-ul {
+   list-style-type: none;
+   color: $p-26;
+   line-height: 2;
+   padding-bottom: 40px;
+}
+
+//mixin aside
+
+@mixin form-input{
+    width: 266px;
+    height: 54px;
+    margin-bottom: 20px;
+    background-color: #f6f9f9;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:$p-23;
+    border-radius: 3px;
+    font-family: $font-regular;
+}
+
+@mixin form-button {
+    color: $p-23;
+    border: none;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 15px;
+    right: 103px;
+    cursor: pointer;
+    background-color: #f6f9f9;
+  
+}
+@mixin h4 {
+    color:$p-1;
+    font-size: 15px;
+    font-family: $font-regular;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+@mixin border-ul {
+    width: 263px;
+   
+    border-top:2px solid ;
+    border-color: $p-1;
+    background-color: $p-7;
+}
+
+@mixin border-ul-li {
+    border:1px solid ;
+    border-color: $p-6;
+    padding: 15px;
+    font-family: $font-regular;
+    font-size: 13px;
+}
+
+@mixin i {
+    padding-right:15px ;
+    color: $p-1;
+
+}
+
+@mixin blog-h3 {
+    font-family: $font-regular;
+   padding-top: 20px;
+}
+
+@mixin advantages-ul{
+    border: none;
+    background-color: transparent;
+   line-height: 0.2;
+   padding-top: 20px;
+   margin-left: -5px;
+ 
+  
+}
+@mixin  advantages-button {
+    width: 263px;
+    height: 40px;
+    border-radius: 3px;
+    margin: 20px 0 30px 0;
+    text-transform: none;
+}
+
+@mixin for-the-p {
+    font-size: 13px;
+    font-family: $font-regular;
+}
+
+@mixin dishref{
+    border: none; 
+    color: $p-25; 
+    background-color: $p-25;
+    height: 1px; 
+   width: 60%;
+   margin-left: 95px;
+}
+
+@mixin form-button-1 {
+	color: #f6f9f9;
+	font-size: 20px;
+	
+    
+   } 
+    
+@mixin  february {
+    color:$p-23;
+    font-family: $font-regular;
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+@mixin hr{
+    border: none; 
+    color: $p-1; 
+    background-color: $p-1;
+    height: 1px; 
+   width: 94%;
+   margin: 0;
+   
+} 
+    
+
+
+.aside{
+   
+    
+    padding: 50px 20px 50px 90px;
+}
+
+.form {
+    position: relative;
+   height: 54px;
+    margin: 0 auto;
+ 
+  }
+
+@mixin h3-2{
+    padding:50px 0 30px 0 ;
+    font-family: $font-regular;
+    color: $p-1;
+    text-transform: uppercase ; 
+    
+}
+
+//mixin footer
+
+@mixin f-home{
+	font-size: 12px;    
+    border: none;
+    outline: none;
+    color:$light;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: $font-regular;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+
+@mixin f-footer {
+    background-color:$p-1;
+    
+    padding-left: 80px;
+}
+@mixin f-footer_row {
+    color:$light;
+    font-family: $font-light;
+    line-height: 2;
+   padding: 80px 80px ;
+}
+@mixin f-footer_row_ul {
+    list-style-type: none;
+   padding:30px 80px 0 0;
+   margin-right: 40px;
+   font-size: 13px;
+   line-height: 1.4;
+}
+@mixin f-footer_hr {
+    border: none; 
+    color:$light; 
+    background-color:$light;
+    height: 1px; 
+    width:79%;
+    margin-left: 110px;
+}
+
+@mixin copyright {
+    color:$light;
+    font-family: "MuseoSansCyrl";
+    font-size: 13px;
+    margin:0 -60px 0 0 ;
+    padding: 0;
+    line-height: 0.3;
+}
+
+@mixin soc_icon-a-i {
+    color:$light;
+    padding: 7px 9px;
+    font-size: 15px;
+    border: solid;
+	border-width: 1px;
+    color:$light;
+    background-color: transparent;
+    margin: 6px 5px;
+	width:30px;
+	height:30px;
+    border-radius:50%;
+}
+
+@mixin tell {
+    font-size: 13px;
+    color:$light;
+    font-family: $font-regular;
+    line-height: 0.3;
+    margin:-10px 10px 0 -40px ;
+    padding: 0;
+
+}
+
+@mixin icon-a-i {
+    font-size: 15px;
+    color:$p-1;
+    padding: 7px 8px;
+    border: solid;
+	border-width: 1px;
+    background-color: $light;
+    margin: 16px 15px;
+	width:30px;
+	height:30px;
+    border-radius:50%;
+}
+
+@mixin email {
+    font-size: 13px;
+    color:$light;
+    font-family: $font-regular;
+    line-height: 0.3;
+   margin:-10px 10px 0 -50px ;
+    padding: 0;
+}
+
+@mixin icon_1-a-svg {
+    font-size: 15px;
+    fill:$p-1;
+    padding: 7px 8px;
+    border: solid;
+	border-width: 1px;
+    background-color:$light ;
+    border-color: $light;
+    margin: 16px 15px;
+	width:30px;
+	height:30px;
+    border-radius:50%;
+}

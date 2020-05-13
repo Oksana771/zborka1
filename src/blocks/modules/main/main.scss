@@ -1,0 +1,59 @@
+.main{
+   @include main;
+}
+.main h1 {
+  @include main-h1;
+}
+
+.main .text1  h3{
+    @include  main-text1-h3;
+    
+}
+
+.main .text1 p{
+   @include  main-text1-p;
+}
+.main ul{
+    @include main-ul;
+    
+}
+.main .ul2{
+    padding-left: 80px;
+}
+.main .ul1 i{
+    color: $p-1;
+}
+.main .ul2 i{
+    color: $p-2;
+}
+
+.main h2, h3, h4, h5{
+    color: $p-28;
+   
+}
+.selected_text {
+    padding-left: 20px;
+    color: $p-8;
+}
+.selected_text:hover{
+    background-color: $p-7;
+}
+.text-column p{
+    font-size: 13px;
+    color:$p-4;
+}
+.text-column-2{
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 1200px){
+    .main{
+        margin: 0;
+    } 
+    
+ }
+ @media screen and (max-width: 576px){
+    .row{
+        margin-left: 0;
+    }
+ }

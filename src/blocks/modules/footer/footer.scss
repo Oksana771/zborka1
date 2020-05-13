@@ -1,0 +1,110 @@
+.f-footer{
+	@include f-footer;
+}
+.f-footer h4{
+    color:$light;
+}
+
+.f-footer .logo{
+    margin-left: 0;
+}
+.f-footer .prov{
+	margin: 50px 10px;
+}
+
+.f-footer .f-home a{
+	@include f-home;
+	
+}
+
+.f-footer .row{
+    @include f-footer_row;
+    
+}
+.f-footer .row ul{
+   @include f-footer_row_ul;
+}
+
+
+
+.f-footer hr{
+    @include f-footer_hr;
+  } 
+  .copyright {
+   @include  copyright;
+
+  }
+  
+  .soc_icon a i {
+    @include soc_icon-a-i;
+   
+  }
+  
+.tell{
+   @include  tell;
+}
+.toll_free{
+    padding-top: 7px;
+}
+.icon a i{
+   @include icon-a-i;
+}
+.toll_free p:nth-child(2){
+    font-size: 16px;
+}
+.email{
+    @include email;
+}
+.email a{
+    text-decoration: none;
+    color: $light;
+    
+}
+.e-mail{
+    padding-top: 7px;
+}
+.icon_1 a svg{
+  @include  icon_1-a-svg;
+}
+
+.contacts{
+    margin: 50px 0 0 50px ;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 720px){
+    .footer-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-footer hr{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+      text-align: center;
+    }
+   .tell, .email{
+    margin-left: 110px;
+    }
+  
+  
+    .copyright, .soc_icon{
+        margin-left: -80px;
+    }
+   
+    .email p{
+        margin-left: -40px;
+    }
+    
+    
+}
+@media screen and (max-width: 576px){
+    .tell, .email{
+        margin-left: 40px;
+        }
+        
+      
+}
